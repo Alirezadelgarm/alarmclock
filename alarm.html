@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>alarm clock</title>
+</head>
+<body>
+    <div class="container">
+        <img src="./clock-svgrepo-com.svg" alt="clock">
+        <h1 class="time" ></h1>
+        <div class="content">
+            <div class="controls">
+                <select>
+                   <option value="hour" selected hidden>hour</option>
+                </select>
+            </div>
+            <div class="controls">
+                <select>
+                   <option value="minute" selected hidden>minute</option>
+                </select>
+            </div>
+        </div>
+        <button>set alarm</button>
+    </div>
+    <script src="./alarmclock.js"></script>
+</body>
+</html>
